@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BoxModel</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Understanding the CSS Box Model</h1>
+                <p>Learn how margin, padding, and borders work together to create beautiful layouts</p>
+                <button class="cta-button">Explore More</button>
+            </div>
+        </section>
+        
+        <section class="box-model-demo">
+            <h2>The CSS Box Model</h2>
+            <div class="box-container">
+                <div class="box margin-box">
+                    <div class="box-label">Margin</div>
+                    <div class="box border-box">
+                        <div class="box-label">Border</div>
+                        <div class="box padding-box">
+                            <div class="box-label">Padding</div>
+                            <div class="box content-box">
+                                <div class="box-label">Content</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-explanation">
+                <p>The CSS Box Model describes the rectangular boxes generated for elements. It consists of:</p>
+                <ul>
+                    <li><strong>Content</strong>: The actual content of the element</li>
+                    <li><strong>Padding</strong>: Clears an area around the content</li>
+                    <li><strong>Border</strong>: A border that goes around the padding</li>
+                    <li><strong>Margin</strong>: Clears an area outside the border</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="cards-section">
+            <h2>Styled Elements</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Card Title</h3>
+                    <p>This card demonstrates padding, margin, and borders. Notice how the content is spaced from the edges.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Another Card</h3>
+                    <p>Each card has consistent spacing thanks to the box model properties. The padding creates breathing room.</p>
+                    <button>View Details</button>
+                </div>
+                <div class="card">
+                    <h3>Third Card</h3>
+                    <p>Margins separate the cards from each other, while padding keeps the content from touching the edges.</p>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="spacing-demo">
+            <h2>Spacing Examples</h2>
+            <div class="spacing-container">
+                <div class="spacing-box small-margin">
+                    <p>Small Margin</p>
+                </div>
+                <div class="spacing-box medium-margin">
+                    <p>Medium Margin</p>
+                </div>
+                <div class="spacing-box large-margin">
+                    <p>Large Margin</p>
+                </div>
+            </div>
+            <div class="spacing-container">
+                <div class="spacing-box small-padding">
+                    <p>Small Padding</p>
+                </div>
+                <div class="spacing-box medium-padding">
+                    <p>Medium Padding</p>
+                </div>
+                <div class="spacing-box large-padding">
+                    <p>Large Padding</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 CSS Box Model Demonstration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
